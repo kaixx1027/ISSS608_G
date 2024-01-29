@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://isss608g.netlify.app/shiny.html</loc>
-    <lastmod>2024-01-29T09:56:44.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isss608g.netlify.app/poster.html</loc>
-    <lastmod>2024-01-29T09:56:43.044Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isss608g.netlify.app/guide.html</loc>
-    <lastmod>2024-01-29T09:56:41.999Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isss608g.netlify.app/about.html</loc>
-    <lastmod>2024-01-29T09:56:41.411Z</lastmod>
+    <loc>https://isss608g.netlify.app/proposal.html</loc>
+    <lastmod>2024-01-29T12:19:23.506Z</lastmod>
   </url>
   <url>
     <loc>https://isss608g.netlify.app/index.html</loc>
-    <lastmod>2024-01-29T09:56:42.526Z</lastmod>
+    <lastmod>2024-01-29T11:24:18.533Z</lastmod>
   </url>
   <url>
-    <loc>https://isss608g.netlify.app/proposal.html</loc>
-    <lastmod>2024-01-29T09:56:43.552Z</lastmod>
+    <loc>https://isss608g.netlify.app/guide.html</loc>
+    <lastmod>2024-01-29T10:28:51.480Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isss608g.netlify.app/poster.html</loc>
+    <lastmod>2024-01-29T11:21:29.614Z</lastmod>
   </url>
 </urlset>

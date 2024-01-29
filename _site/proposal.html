@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>VAA Team 6 - Proposal</title>
+<title>Proposal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,31 +117,91 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-motivation" id="toc-project-motivation" class="nav-link active" data-scroll-target="#project-motivation"><span class="header-section-number">1</span> Project Motivation</a></li>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link" data-scroll-target="#problem-statement"><span class="header-section-number">2</span> Problem Statement</a></li>
+  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation"><span class="header-section-number">3</span> Data Preparation</a></li>
+  <li><a href="#solution-approach-early-prototype" id="toc-solution-approach-early-prototype" class="nav-link" data-scroll-target="#solution-approach-early-prototype"><span class="header-section-number">4</span> Solution Approach &amp; Early Prototype</a>
+  <ul class="collapse">
+  <li><a href="#description-of-rental-related-information" id="toc-description-of-rental-related-information" class="nav-link" data-scroll-target="#description-of-rental-related-information"><span class="header-section-number">4.1</span> Description of Rental Related Information</a></li>
+  <li><a href="#correlation-exploration" id="toc-correlation-exploration" class="nav-link" data-scroll-target="#correlation-exploration"><span class="header-section-number">4.2</span> Correlation Exploration</a></li>
+  <li><a href="#prediction-model" id="toc-prediction-model" class="nav-link" data-scroll-target="#prediction-model"><span class="header-section-number">4.3</span> Prediction Model</a></li>
+  </ul></li>
+  <li><a href="#r-libraries" id="toc-r-libraries" class="nav-link" data-scroll-target="#r-libraries"><span class="header-section-number">5</span> R Libraries</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Proposal</h1>
-</div>
 
 
+<p><img src="images/city.jpg" class="img-fluid"></p>
+<section id="project-motivation" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="project-motivation"><span class="header-section-number">1</span> Project Motivation</h2>
+<p>Singapore is a multi-racial immigrant country, and as the population continues to increase, housing and rental prices are also on the rise. This makes it challenging for many people to find appropriate housing. The motivation for the project stems from an interest in the current state of the rental market in Singapore and a desire to gain a deeper understanding of future changes in rental prices.</p>
+<p>With the constant fluctuation of the housing market, the rising rent price has a certain impact on the living burden of residents. Therefore, our team wanted to analyze past rental price data to reveal underlying trends and provide more accurate information for future rental decisions.</p>
+</section>
+<section id="problem-statement" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="problem-statement"><span class="header-section-number">2</span> Problem Statement</h2>
+<p>To better meet the needs of renters, our project aims to solve the problem of how to accurately predict the future trend of housing rental prices in various districts in Singapore.</p>
+<p>Resolving this issue is crucial for renters and housing market participants to provide clear insight into future rental price changes. By analyzing past rental data in depth, we hope to be able to build reliable models to predict the trend of rental prices in different regions and provide renters with more informed decisions.</p>
+<p>Our goal is to create an effective predictive model to help renters better understand the future evolution of the rental market, thereby enabling them to make informed, data-based rental decisions. By addressing this issue, we can provide renters with more confidence and transparency and help them better adapt to the changing renting environment.</p>
+</section>
+<section id="data-preparation" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="data-preparation"><span class="header-section-number">3</span> Data Preparation</h2>
+<p>Our team found data on the following websites:</p>
+<ul>
+<li><p><a href="https://www.ura.gov.sg/corporate">Urban Redevelopment Authority</a></p></li>
+<li><p><a href="https://beta.data.gov.sg/">Singapore’s national open data collection</a></p></li>
+</ul>
+<p>To build our predictive model, we plan to take detailed data related to past home rents and thoroughly clean and collate that data. We will collect data sets that include the following key information:</p>
+<p><code>Lease_Commencement_Date</code>: Keeping track of when each lease took effect allows us to analyze rent trends over time.</p>
+<p><code>Project_Name</code>: Identify the specific neighborhood in which the rental property is located.</p>
+<p><code>Street_Name</code>: Recording the name of the street on which the house is located helps to locate the property more precisely.</p>
+<p><code>Planning_Region</code>: Provide more detailed geographic information to help us break down the data by region and further analyze the rental situation in different regions.</p>
+<p><code>Property_Type</code>: Identify the type of house.</p>
+<p><code>Monthly_Rent_SGD</code>: Recording the monthly rental cost is the target variable in our model.</p>
+<p><code>Floor_Area_SQM_Avg</code>: Provide information about the size of the home, one of the important factors affecting rent pricing.</p>
+<p><code>No_of_Bedroom</code>: Keeping track of the number of bedrooms in the house has an impact on the rent.</p>
+<p><code>nearest_mrt</code>: Indicates the nearest metro station, taking into account the impact of transport accessibility on rent.</p>
+<p><code>distance_to_mrt</code>: Record the distance from the house to the nearest metro station to measure accessibility.</p>
+<p><code>latitude/longitude</code>: Provides coordinate information of the exact location of the house for geospatial analysis and visualization.</p>
+<p>There is also some other information that will be reflected in the data set. By collating and cleaning up this detailed and diverse data, we will be able to build a comprehensive dataset that will provide a solid foundation for the construction of predictive models. Such a data set will allow us to gain insight into the factors that influence rents and more accurately predict future rental prices.</p>
+</section>
+<section id="solution-approach-early-prototype" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="solution-approach-early-prototype"><span class="header-section-number">4</span> Solution Approach &amp; Early Prototype</h2>
+<p>We will use R Shiny to build a web-enabled visual analytics application to analyze and predict the future rental prices of housing in Singapore. There are three main steps:</p>
+<section id="description-of-rental-related-information" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="description-of-rental-related-information"><span class="header-section-number">4.1</span> Description of Rental Related Information</h3>
+<p>In this section, we will provide a detailed description of the information related to the house rent. This includes key information such as monthly rent in each area, room size, distance from the nearest MRT station, etc. Through this section, users can fully understand the situation of different housing rents, which helps to make informed rental decisions.</p>
+<p><img src="images/proposal1.jpg" class="img-fluid"></p>
+</section>
+<section id="correlation-exploration" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="correlation-exploration"><span class="header-section-number">4.2</span> Correlation Exploration</h3>
+<p>In the second part, we will delve into the correlations between the different factors. This covers the study of linear and nonlinear correlations, as well as the strength and direction of the relationships. Through this step, we can identify the factors that have the greatest impact on rent and provide users with more accurate rental information.</p>
+<p><img src="images/proposal2.jpg" class="img-fluid"></p>
+</section>
+<section id="prediction-model" class="level3" data-number="4.3">
+<h3 data-number="4.3" class="anchored" data-anchor-id="prediction-model"><span class="header-section-number">4.3</span> Prediction Model</h3>
+<p>In the final part of the proposal, we will build a powerful predictive model for predicting changes in housing rents under different input information. This model will consider various factors, such as location, home size, transportation accessibility, etc., to provide users with a reliable rent forecast. With this innovative forecasting model, users can better understand rental trends and make informed rental decisions.</p>
+<p>Through the integrated implementation of these three parts, our solution aims to provide users with comprehensive, accurate and predictive rental information, enabling them to make more informed rental decisions.</p>
+<p><img src="images/proposal3.jpg" class="img-fluid"></p>
+</section>
+</section>
+<section id="r-libraries" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="r-libraries"><span class="header-section-number">5</span> R Libraries</h2>
+<p>Below is a non-exhaustive list of R libraries we will be using for our study:</p>
+<p><code>Caret</code> (Predictive regression models)</p>
+<p><code>Time Series</code> (R time series analysis tools)</p>
+<p><code>Tidyverse</code> (Data manipulation)</p>
+<p><code>Ggplot2</code> (Data visualisation)</p>
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>To be continued.</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
