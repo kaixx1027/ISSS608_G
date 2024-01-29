@@ -1,7 +1,6 @@
 ---
 pagetitle: "VAA Team 6"
+title: "Singapore Housing Rental Prediction"
 ---
-
-## Singapore Housing Rental Prediction
 
 ![](images/city.jpg)
