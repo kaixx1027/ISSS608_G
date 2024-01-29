@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+pagetitle: "About Us"
 ---
 
 ## ISSS608 Visual Analytics & Applications Project Team 6 (2023/2024)
@@ -14,6 +14,8 @@ Welcome to the home of Team 6 from the ISSS608 Visual Analytics & Applications P
 
 ### Special Thanks
 
-We express sincere appreciation to Prof Kam Tin Seong for his dedication, patience, and invaluable support. His mentorship extended beyond conventional boundaries, helping troubleshoot technical issues and providing guidance throughout our project journey. We are truly thankful for the enriching learning experience under his wisdom.
+We express sincere appreciation to **Prof Kam Tin Seong** for his dedication, patience, and invaluable support. His mentorship extended beyond conventional boundaries, helping troubleshoot technical issues and providing guidance throughout our project journey. We are truly thankful for the enriching learning experience under his wisdom.
 
-Thank you for joining us on this immersive journey into Visual Analytics and Applications!
+<center>![](images/prof.png){width="30%"}
+
+**Thank you for joining us on this immersive journey into Visual Analytics and Applications!**

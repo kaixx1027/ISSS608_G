@@ -23,23 +23,23 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Us",
+    "title": "VAA Team 6",
     "section": "",
-    "text": "Welcome to the home of Team 6 from the ISSS608 Visual Analytics & Applications Project in the academic year 2023/2024!\n\n\n\nWAN Honglu\nZHENG Kaixin\n\n\n\n\nWe express sincere appreciation to Prof Kam Tin Seong for his dedication, patience, and invaluable support. His mentorship extended beyond conventional boundaries, helping troubleshoot technical issues and providing guidance throughout our project journey. We are truly thankful for the enriching learning experience under his wisdom.\nThank you for joining us on this immersive journey into Visual Analytics and Applications!"
+    "text": "Welcome to the home of Team 6 from the ISSS608 Visual Analytics & Applications Project in the academic year 2023/2024!\n\n\n\nWAN Honglu\nZHENG Kaixin\n\n\n\n\nWe express sincere appreciation to Prof Kam Tin Seong for his dedication, patience, and invaluable support. His mentorship extended beyond conventional boundaries, helping troubleshoot technical issues and providing guidance throughout our project journey. We are truly thankful for the enriching learning experience under his wisdom.\n\n\nThank you for joining us on this immersive journey into Visual Analytics and Applications!"
   },
   {
     "objectID": "about.html#isss608-visual-analytics-applications-project-team-6-20232024",
     "href": "about.html#isss608-visual-analytics-applications-project-team-6-20232024",
-    "title": "About Us",
-    "section": "",
-    "text": "Welcome to the home of Team 6 from the ISSS608 Visual Analytics & Applications Project in the academic year 2023/2024!\n\n\n\nWAN Honglu\nZHENG Kaixin\n\n\n\n\nWe express sincere appreciation to Prof Kam Tin Seong for his dedication, patience, and invaluable support. His mentorship extended beyond conventional boundaries, helping troubleshoot technical issues and providing guidance throughout our project journey. We are truly thankful for the enriching learning experience under his wisdom.\nThank you for joining us on this immersive journey into Visual Analytics and Applications!"
-  },
-  {
-    "objectID": "proposal.html",
-    "href": "proposal.html",
     "title": "VAA Team 6",
     "section": "",
-    "text": "Singapore is a multi-racial immigrant country, and as the population continues to increase, housing and rental prices are also on the rise. This makes it challenging for many people to find appropriate housing. The motivation for the project stems from an interest in the current state of the rental market in Singapore and a desire to gain a deeper understanding of future changes in rental prices.\nWith the constant fluctuation of the housing market, the rising rent price has a certain impact on the living burden of residents. Therefore, our team wanted to analyze past rental price data to reveal underlying trends and provide more accurate information for future rental decisions."
+    "text": "Welcome to the home of Team 6 from the ISSS608 Visual Analytics & Applications Project in the academic year 2023/2024!\n\n\n\nWAN Honglu\nZHENG Kaixin\n\n\n\n\nWe express sincere appreciation to Prof Kam Tin Seong for his dedication, patience, and invaluable support. His mentorship extended beyond conventional boundaries, helping troubleshoot technical issues and providing guidance throughout our project journey. We are truly thankful for the enriching learning experience under his wisdom.\n\n\nThank you for joining us on this immersive journey into Visual Analytics and Applications!"
+  },
+  {
+    "objectID": "proposal.html#project-motivation",
+    "href": "proposal.html#project-motivation",
+    "title": "VAA Team 6",
+    "section": "1 Project Motivation",
+    "text": "1 Project Motivation\nSingapore is a multi-racial immigrant country, and as the population continues to increase, housing and rental prices are also on the rise. This makes it challenging for many people to find appropriate housing. The motivation for the project stems from an interest in the current state of the rental market in Singapore and a desire to gain a deeper understanding of future changes in rental prices.\nWith the constant fluctuation of the housing market, the rising rent price has a certain impact on the living burden of residents. Therefore, our team wanted to analyze past rental price data to reveal underlying trends and provide more accurate information for future rental decisions."
   },
   {
     "objectID": "proposal.html#problem-statement",
@@ -54,34 +54,6 @@
     "title": "VAA Team 6",
     "section": "3 Data Preparation",
     "text": "3 Data Preparation\nOur team found data on the following websites:\n\nUrban Redevelopment Authority\nSingapore’s national open data collection\n\nTo build our predictive model, we plan to take detailed data related to past home rents and thoroughly clean and collate that data. We will collect data sets that include the following key information:\nLease_Commencement_Date: Keeping track of when each lease took effect allows us to analyze rent trends over time.\nProject_Name: Identify the specific neighborhood in which the rental property is located.\nStreet_Name: Recording the name of the street on which the house is located helps to locate the property more precisely.\nPlanning_Region: Provide more detailed geographic information to help us break down the data by region and further analyze the rental situation in different regions.\nProperty_Type: Identify the type of house.\nMonthly_Rent_SGD: Recording the monthly rental cost is the target variable in our model.\nFloor_Area_SQM_Avg: Provide information about the size of the home, one of the important factors affecting rent pricing.\nNo_of_Bedroom: Keeping track of the number of bedrooms in the house has an impact on the rent.\nnearest_mrt: Indicates the nearest metro station, taking into account the impact of transport accessibility on rent.\ndistance_to_mrt: Record the distance from the house to the nearest metro station to measure accessibility.\nlatitude/longitude: Provides coordinate information of the exact location of the house for geospatial analysis and visualization.\nThere is also some other information that will be reflected in the data set. By collating and cleaning up this detailed and diverse data, we will be able to build a comprehensive dataset that will provide a solid foundation for the construction of predictive models. Such a data set will allow us to gain insight into the factors that influence rents and more accurately predict future rental prices."
-  },
-  {
-    "objectID": "proposal.html#solution-method",
-    "href": "proposal.html#solution-method",
-    "title": "VAA Team 6",
-    "section": "4 Solution method",
-    "text": "4 Solution method"
-  },
-  {
-    "objectID": "proposal.html#early-prototype",
-    "href": "proposal.html#early-prototype",
-    "title": "VAA Team 6",
-    "section": "5 Early prototype",
-    "text": "5 Early prototype"
-  },
-  {
-    "objectID": "proposal.html#scope-of-work",
-    "href": "proposal.html#scope-of-work",
-    "title": "VAA Team 6",
-    "section": "6 Scope of Work",
-    "text": "6 Scope of Work"
-  },
-  {
-    "objectID": "proposal.html#project-motivation",
-    "href": "proposal.html#project-motivation",
-    "title": "VAA Team 6",
-    "section": "1 Project Motivation",
-    "text": "1 Project Motivation\nSingapore is a multi-racial immigrant country, and as the population continues to increase, housing and rental prices are also on the rise. This makes it challenging for many people to find appropriate housing. The motivation for the project stems from an interest in the current state of the rental market in Singapore and a desire to gain a deeper understanding of future changes in rental prices.\nWith the constant fluctuation of the housing market, the rising rent price has a certain impact on the living burden of residents. Therefore, our team wanted to analyze past rental price data to reveal underlying trends and provide more accurate information for future rental decisions."
   },
   {
     "objectID": "proposal.html#solution-approach-early-prototype",
