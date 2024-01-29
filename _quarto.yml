@@ -5,7 +5,8 @@ website:
   page-navigation: true
   title: "VAA Team 6"
   site-url: "https://isss608g.netlify.app/"
-  favicon: images/home.png
+  
+  favicon: images/home2.png
   
   page-footer:
     left: "Website made with [Quarto](https://quarto.org/), by Honglu & Kaixin"
