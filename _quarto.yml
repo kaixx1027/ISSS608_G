@@ -5,7 +5,6 @@ website:
   page-navigation: true
   title: "VAA Team 6"
   site-url: "https://isss608g.netlify.app/"
-  
   favicon: images/home.png
   
   page-footer:
