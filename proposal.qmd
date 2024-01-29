@@ -73,9 +73,9 @@ In the second part, we will delve into the correlations between the different fa
 
 In the final part of the proposal, we will build a powerful predictive model for predicting changes in housing rents under different input information. This model will consider various factors, such as location, home size, transportation accessibility, etc., to provide users with a reliable rent forecast. With this innovative forecasting model, users can better understand rental trends and make informed rental decisions.
 
-Through the integrated implementation of these three parts, our solution aims to provide users with comprehensive, accurate and predictive rental information, enabling them to make more informed rental decisions.
-
 ![](images/proposal3.jpg)
+
+Through the integrated implementation of these three parts, our solution aims to provide users with comprehensive, accurate and predictive rental information, enabling them to make more informed rental decisions.
 
 ## R Libraries
 
