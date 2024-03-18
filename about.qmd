@@ -8,9 +8,9 @@ Welcome to the home of Team 6 from the ISSS608 Visual Analytics & Applications P
 
 ### Team Members
 
--   WAN Honglu
+-   [WAN Honglu](https://whlmitbisss608.netlify.app/)
 
--   ZHENG Kaixin
+-   [ZHENG Kaixin](https://isss608-kaixin.netlify.app/)
 
 ### Special Thanks
 

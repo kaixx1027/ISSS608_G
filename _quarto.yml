@@ -17,7 +17,7 @@ website:
         text: Proposal
       - href: poster.qmd
         text: Poster
-      - href: shiny.qmd
+      - href: https://isss608g.shinyapps.io/vaagroup/
         text: Shiny App
       - href: guide.qmd
         text: User Guide
