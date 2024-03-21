@@ -2,6 +2,4 @@
 title: "User Guide"
 ---
 
-Click [here](https://acrobat.adobe.com/id/urn:aaid:sc:AP:f8fa0cf3-156d-4190-bbc3-49bada0f167d) to download.
-
-![](images/userguide/01.jpg) ![](images/userguide/02.jpg) ![](images/userguide/03.jpg) ![](images/userguide/04.jpg) ![](images/userguide/05.jpg) ![](images/userguide/06.jpg)
+![](ISSS608_Group06_UserGuide.pdf){width=100% height=960px}
