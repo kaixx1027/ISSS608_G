@@ -1,5 +1,6 @@
-pacman::p_load(readr, readxl, sf, tmap, tidyverse, shinythemes, plotly, ggstatsplot, 
+pacman::p_load(readr, readxl, sf, tmap, shinythemes, ggstatsplot, 
                shiny, shinydashboard, shinyWidgets, shinycssloaders, shinyjs)
+pacman::p_load(poLCA, ggplot2, plotly, tidyverse, corrplot)
 
 #————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————Data
 Rental_data <- read_csv("data/ResidentialRental_Final.csv")
@@ -167,7 +168,7 @@ ui <- dashboardPage(
                                  align = "center",  
                                  selectInput("facet_var", "Select facet_wrap variable:",  
                                              choices = c("Year", "Planning_Region", "Property_Type"),  
-                                             selected = "Property_Type")  
+                                             selected = "Planning_Region")  
                           )  
                         ),  
                         fluidRow(  
@@ -217,7 +218,7 @@ ui <- dashboardPage(
                                align = "center",
                                selectInput("xvar", "Select x variable:",
                                            choices = c("Planning_Region", "Property_Type"),
-                                           selected = "Property_Type")
+                                           selected = "Planning_Region")
                         )
                       ),
                       fluidRow(
