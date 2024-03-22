@@ -4,3 +4,13 @@ title: "Singapore Housing Rental Prediction"
 ---
 
 ![](images/sg.jpg)
+
+The visual analytics application, developed with the objective of democratizing data and analytics, serves to provide tenants with transparent and accurate rental information, empowering them to make more informed decisions regarding their rentals.
+
+Motivated by the challenges posed by Singapore's rising housing and rental prices amidst its multicultural immigrant status and population growth, the application conducts an in-depth analysis of historical rental price data.  By uncovering underlying market trends, it aims to furnish tenants with more precise insights to guide future rental decisions effectively.
+
+Through the integration of an effective predictive model, the application endeavors to enhance tenants' understanding of the rental market's future trajectory, enabling them to make decisions based on reliable data.  This predictive capability not only promotes transparency within the rental market but also assists tenants in adapting to its evolving dynamics.
+
+Furthermore, the application explores correlations among various factors, including both linear and nonlinear relationships, to identify key drivers influencing rental rates.  By providing users with more accurate rental information, it empowers them to make informed decisions regarding their rental choices.
+
+Moreover, the application utilizes a robust forecasting model to predict changes in housing rent based on a range of input parameters such as location, house size, and transportation accessibility.  By delivering reliable rental forecasts, it enables users to gain a deeper understanding of leasing trends and make more informed decisions regarding their rental properties.
